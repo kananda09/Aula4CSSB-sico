@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--Controle da Página--> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula4CSSBasico</title>
+    
+    <!--CSS EXTERNO: Dentro do head o link-->
+    <link rel="stylesheet" href="style.css"> 
+    
+    <!--CSS INTERNO OU EMBUTIDO: colocar dentro do head SELETOR{PROPRIEDADE:VALOR;} aonde toda TAG será aplicada tipo p,h1ah6,selection...-->
+   <style>
+    h1{
+        color: #0065fd;
+    } 
+    p{
+        background-color: rgb(108, 141, 161);
+    }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <h1>Aula de CSS</h1> <!--Esse style é o CSS Inline dentro da TAG h1 eo <style><\style> e o atributo da TAG h1 (STYLE) PADRÃO:"VALOR"; -->
+    <br>
+    <a href="https://www.w3schools.com/">W3school</a>
+    <p style="color: rgb(33, 170, 49);">Primeiro paragráfo falando sobre CSS</p>
+    <p class="CLASSE">Estou no segundo paragrafo</p> <!--A cascata aqui tem o CSS INLINE E O SELETOR TIPO CLASSE-->
+    <p id="destaque">Quando eu chegar no 3º paragráfo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed fugiat est assumenda, tenetur ab, deleniti earum praesentium, sapiente adipisci odio voluptatem. Explicabo repudiandae animi facilis modi voluptate quae magni?</p>
+   
+    <!--SELETOR DO TIPO TAG NO CSS-->
+    <section>Essa é uma section</section>
+    <section>Minha 2º section esta bem maior qua a primeira</section>
+   
+    <!--SELETOR DO TIPO CLASSE NO CSS-->
+    <h5 class="CLASSE">Teste1</h5>
+    <h5>Teste2</h5>
+    <br>
+    <button type="submit">Clique Aqui</button>
+</body>
+</html>
+<!--CSS INTERNO OU EMBUTIDO: colocar dentro do head SELETOR{PROPRIEDADE:VALOR;} aonde toda TAG será aplicada tipo p,h1ah6,selection...-->

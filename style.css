@@ -1,0 +1,54 @@
+/*INICIO DO CSS EXTERNO*/
+
+body{
+    margin: 0px;
+    background-image:  url(Imagem/Fotografia-de-paisagem-guia-comp.webp);
+    background-size: cover;
+}
+
+h1{
+    border: 2px dotted red; /* borda do titulo, px quer dizer a grossura e dotted e a caixa de texto em pontinho*/
+    color: rgb(182, 241, 32);
+    text-align: center; /*CENTRALIZAÇÃO*/
+    padding: 50px; /*Preenchimento da caixa ou seja aumenta a caixa*/
+    display: inline-flex;
+}
+
+p{
+    background-color: rgb(88, 164, 196);
+}
+
+/*SELETOR DO TIPO TAG {text;}*/
+section{ 
+    border: 1px solid blueviolet; /*Aqui px e a grossura da borda, o solid e a borda e blue..e a cor da borda e podemos procurar o seletor de cores e colocar no blue...*/
+} 
+
+/*SELETOR DO TIPO CLASSE .text*/
+.CLASSE{
+    font-family: 'Courier New', Courier, monospace; /*fonte da letra do texto*/
+    font-size: 25px; /* Tamanho da Fonte*/
+    color: rgb(250, 234, 6); /* Cor da Fonte*/
+    background-color: black;
+}
+
+/*SELETOR DO TIPO ID Seleciona apenas a um elemento, para um paragrafo especial ou seja um detaque*/
+#destaque{
+    border: 1px solid rgb(248, 7, 140);
+    background-color: darkturquoise;
+    color: brown;
+    text-align: center;
+}
+a{
+    border: 3px solid green;
+    border-radius: 15px;
+    background-color: rgb(212, 212, 4);
+    color: brown;
+}
+
+a:hover{ /*copia letra a acima e recoloca no hover*/
+    border: 3px solid rgb(6, 6, 6);
+    border-radius: 15px; /*borda do link na pagina*/
+    background-color: rgb(2, 242, 14);
+    color: rgb(244,243,246);
+    font-size: large;
+}
